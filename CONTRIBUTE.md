@@ -3,10 +3,10 @@ Contributing to Ngo-Farmer-Analysis
 =========================
 
 1. When contributing to this repository, please first discuss the change you wish to make on issue or Front-end/Back-end channels on the Mattermost app.
-2. To make any changes, fork the Development branch. 
-3. Add your changes to your forked development branch, please ensure that the project builds properly with the new changes.
-4. Once that's done, **ALWAYS** create a PR to the Development branch of the main repository. 
-5. Post the PR on the relevant channel in the app, code reviewers will review the PR and approve it. 
+2. To make any changes, fork the repository. 
+3. Add your changes to your forked repo, please ensure that the project builds properly with the new changes.
+4. Once that's done, **ALWAYS** create a PR to the **Development** branch of the main repository. 
+5. Post the PR on the relevant channel in the app for the code reviewers to review the PR and approve it. 
 
 If a PR is made to the master branch, it will be not be approved but deleted.
 
