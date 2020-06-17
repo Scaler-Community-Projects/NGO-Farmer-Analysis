@@ -39,4 +39,6 @@ apps/ @octocat
 .github/*                           @krishnanvignesh
 
 src/                                @srkeshav @krishnanvignesh
+*                                   @krishnanvignesh
+*.md                                @krishnanvignesh 
 public/                             @krishnanvignesh
