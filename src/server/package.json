@@ -1,0 +1,22 @@
+{
+  "name": "ngo-farmer-analysis",
+  "version": "1.0.0",
+  "description": "A Website/Webapp to help NGO to capture, store and analyze farmer's crop yield and methods used. Previously these things were used to be done manually. The main aim of the project is to make this process as seamless as possible.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Scaler-Community-Projects/NGO-Farmer-Analysis.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Scaler-Community-Projects/NGO-Farmer-Analysis/issues"
+  },
+  "homepage": "https://github.com/Scaler-Community-Projects/NGO-Farmer-Analysis#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
