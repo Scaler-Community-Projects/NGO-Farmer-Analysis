@@ -39,3 +39,4 @@ apps/ @octocat
 .github/*                           @krishnanvignesh
 
 src/                                @srkeshav @krishnanvignesh
+public/                             @krishnanvignesh
