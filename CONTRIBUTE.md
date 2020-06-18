@@ -1,7 +1,6 @@
 
 Contributing to Ngo-Farmer-Analysis
 
-
   When contributing to this repository, please first discuss the change you wish to make on issue or Front-end/Back-end channels on the Mattermost app.
 
 * To make any changes, fork the repository.
@@ -31,6 +30,7 @@ Please format commit messages as follows (based on [A Note About Git Commit Mess
 * Summaize your changes (What changes are made)
 * Put a small description (Why those changes are made)
 
+
 ## DOs and DON'Ts
 
 Please do:
@@ -43,11 +43,3 @@ Please do not:
 * **DON'T** make PRs for style changes.
 * **DON'T** surprise us with big pull requests.
 * **DON'T** commit changes that break the build.
-
-Commit Messages
----------------
-
-Please format commit messages as follows (based on [A Note About Git Commit Messages](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)):
-
-* Summaize your changes (What changes are made)
-* Put a small description (Why those changes are made)
