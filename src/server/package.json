@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Scaler-Community-Projects/NGO-Farmer-Analysis#readme",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "helmet": "^3.23.1",
     "morgan": "^1.10.0",
