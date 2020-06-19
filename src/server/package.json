@@ -4,6 +4,8 @@
   "description": "A Website/Webapp to help NGO to capture, store and analyze farmer's crop yield and methods used. Previously these things were used to be done manually. The main aim of the project is to make this process as seamless as possible.",
   "main": "app.js",
   "scripts": {
+    "start": "node app",
+    "dev": "nodemon app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +19,15 @@
   },
   "homepage": "https://github.com/Scaler-Community-Projects/NGO-Farmer-Analysis#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.23.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.2.1",
+    "sequelize": "^5.21.13",
+    "sequelize-cli": "^5.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
