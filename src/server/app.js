@@ -1,11 +1,22 @@
 const express = require('express');
 const app = express();
+app.use(express.json())
+app.use(express.urlencoded({extended:true}))
 
 const route = require('./api/index');
 const auth = require('./api/auth');
 const test = require('./api/test');
 
 app.use(express.static('public'))
+const sequelize=require('./db/models').DATABASE
+
+sequelize.sync({force:true}).then(function () {
+    console.log("Database Configured");
+    
+  })
+  .catch((err)=>{
+    console.log(err)
+    })
 
 // Routes
 app.use('/', route);
