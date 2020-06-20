@@ -105,3 +105,6 @@ dist
 
 # Ignore environement files
 .idea/
+
+# Ignore sendgrid environement
+sendgrid.env 
