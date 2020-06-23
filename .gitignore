@@ -108,3 +108,6 @@ dist
 
 # Ignore sendgrid environement
 sendgrid.env 
+/src/server/logs/
+package-lock.json
+*.iml
