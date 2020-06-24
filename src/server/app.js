@@ -1,13 +1,16 @@
 const express = require('express');
 const app = express();
-app.use(express.json())
+const logger=require('./utilities/logger');
+
+app.use(express.json());
 app.use(express.urlencoded({ extended: true }))
 
 const route = require('./api/index');
 const auth = require('./api/auth');
 const farmer = require('./api/farmer');
 
-app.use(express.static('public'))
+app.use(require("morgan")("combined", { "stream": logger.stream }));
+app.use(express.static('public'));
 
 // Routes
 app.use('/', route);

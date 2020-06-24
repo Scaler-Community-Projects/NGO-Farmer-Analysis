@@ -6,5 +6,8 @@ module.exports = {
         database: 'd600sqm9b1nmj3',
         ssl: true,
         schema: 'savera'
+    },
+    logger: {
+        logfile: './logs/all-logs.log'
     }
 }
