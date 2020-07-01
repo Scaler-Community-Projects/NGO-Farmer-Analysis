@@ -1,14 +1,24 @@
 # SS-SWERA Project Website
 
-A Website/Webapp to capture, store and analyze farmer's crop yield and providing them inputs on water-management and crop yield maximization. Previously these things were done manually. This Website/Webapp will allow these task to be done on a much faster pace. This app specifically built for use 
+A Website/Webapp to capture, store and analyze farmer's crop yield and providing them inputs on water-management and crop yield maximization. Previously these things were done manually. This Website/Webapp will allow these task to be done on a much faster pace.
+
+## Purpose
+
+- To expedite the capture of yield count of crops
+- Provided analysis on the method and ideas adopted
+- Log group and one-to-one meetings given to farmers
+
+## Features
+
+- Data Analysis based on crop, area and irrigation methods
 
 ## What is SS-SWERA Project
 
 This project aims to scale-up key drivers of behavior change amongst farmers at near block saturation level in Balrampur district. This could emerge as a model of sustainable solutions PANI Sansthan / CRP Selection for water efficient; economically rewarding agriculture in East UP. The project has defined its implementation strategy which is as following-  
 
-1. A cadre of trained community water-agriculture professionals that drive awareness and behavior change amongst farmers in their villages
+- A cadre of trained community water-agriculture professionals that drive awareness and behavior change amongst farmers in their villages
 
-2. A network of Farmer Resource Centers that provide access to quality inputs, equipment and market linkages.
+- A network of Farmer Resource Centers that provide access to quality inputs, equipment and market linkages
 
 ## Project Vision
 
