@@ -34,5 +34,6 @@ Thanks goes to the wonderful people who Contribute!. If you are new and want to 
 
 ## Useful Links
 
+- [PANI](http://paniindia.in/) (NGO)
 - [SUJALAM SUFALAM-SWERA PROJECT](https://sites.google.com/view/ss-swera)
 - [Issues/Tasks](https://github.com/Scaler-Community-Projects/NGO-Farmer-Analysis/issues)
