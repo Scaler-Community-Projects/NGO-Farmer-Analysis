@@ -105,3 +105,9 @@ dist
 
 # Ignore environement files
 .idea/
+
+# Ignore sendgrid environement
+sendgrid.env 
+/src/server/logs/
+package-lock.json
+*.iml
