@@ -6,6 +6,7 @@ app.use(express.urlencoded({extended:true}))
 const route = require('./api/index');
 const auth = require('./api/auth');
 const test = require('./api/test');
+const adoption = require('./api/adoption');
 
 app.use(express.static('public'))
 
@@ -13,6 +14,7 @@ app.use(express.static('public'))
 app.use('/', route);
 app.use('/auth', auth);
 app.use('/test', test);
+app.use("/adoption",adoption);
 
 async function startServer() {
     app.listen(4000, err => {
