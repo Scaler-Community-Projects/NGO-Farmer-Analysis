@@ -1,4 +1,3 @@
-
 exports.getFarmers = (req, res, next) => {
-    // return farmers from database
-}
+  // return farmers from database
+};
