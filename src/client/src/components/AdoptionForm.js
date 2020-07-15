@@ -1,7 +1,5 @@
 import React from "react";
 import { Container, Form, Button, FormGroup, Row, Col } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
-
 
 const AdoptionForm = (props) => {
 return(
@@ -27,8 +25,8 @@ return(
         <Form.Group controlId="VideoName">
           <Form.Label>Video Name</Form.Label>
           <Form.Control type="text" placeholder="Enter video's name from which farmer was educated"/>
-        </Form.Group>
-
+         </Form.Group>
+        
         <Form.Group controlId="DateOfAdoption">
           <Form.Label>Date of Adoption</Form.Label>
           <Form.Control type="date"/>
