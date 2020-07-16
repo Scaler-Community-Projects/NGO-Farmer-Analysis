@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Footer from './components/Footer.js';
 import Navbar from './components/Navbar.js';
+import DisseminationForm from './components/DisseminationForm';
 
 function App() {
   return (
