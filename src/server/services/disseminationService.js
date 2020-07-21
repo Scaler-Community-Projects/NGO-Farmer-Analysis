@@ -16,13 +16,13 @@ exports.getAllDisseminations = (req, res, next) => {
             'farmer.name',
             'farmer.father_name',
             'farmer.spouse_name',
-            'adoption_table.adp_id',
-            'question_table.q_id'
+            'adoption_table.adp_name',
+            'question_table.question'
     )
-    .join('dissemination_attendee_mapping', {'dissemination.dissemination_id' : 'dissemination_attendee_mapping.dissemination_id'})
-    .join('farmer', {'farmer.farmer_id' : 'dissemination_attendee_mapping.farmer_id'})
-    .join('question_table', {'question_table.q_id' : 'dissemination_attendee_mapping.question_id'})
-    .join('adoption_table', {'adoption_table.adp_id' : 'dissemination_attendee_mapping.adoption_id'})
+    .leftJoin('dissemination_attendee_mapping','dissemination.dissemination_id', 'dissemination_attendee_mapping.dissemination_id')
+    .leftJoin('farmer', 'farmer.farmer_id' , 'dissemination_attendee_mapping.farmer_id')
+    .leftJoin('question_table','question_table.q_id' , 'dissemination_attendee_mapping.question_id')
+    .leftJoin('adoption_table', 'adoption_table.adp_id' , 'dissemination_attendee_mapping.adoption_id')
     .then(function (rows) {
         next(null, rows);
     })
@@ -51,13 +51,13 @@ exports.getDisseminationById = (req, res, next) => {
             'farmer.name',
             'farmer.father_name',
             'farmer.spouse_name',
-            'adoption_table.adp_id',
-            'question_table.q_id'
+            'adoption_table.adp_name',
+            'question_table.question'
     )
-    .join('dissemination_attendee_mapping', {'dissemination.dissemination_id' : 'dissemination_attendee_mapping.dissemination_id'})
-    .join('farmer', {'farmer.farmer_id' : 'dissemination_attendee_mapping.farmer_id'})
-    .join('question_table', {'question_table.q_id' : 'dissemination_attendee_mapping.question_id'})
-    .join('adoption_table', {'adoption_table.adp_id' : 'dissemination_attendee_mapping.adoption_id'})
+    .leftJoin('dissemination_attendee_mapping','dissemination.dissemination_id', 'dissemination_attendee_mapping.dissemination_id')
+    .leftJoin('farmer', 'farmer.farmer_id' , 'dissemination_attendee_mapping.farmer_id')
+    .leftJoin('question_table','question_table.q_id' , 'dissemination_attendee_mapping.question_id')
+    .leftJoin('adoption_table', 'adoption_table.adp_id' , 'dissemination_attendee_mapping.adoption_id')
     .where({ 'dissemination.dissemination_id': parseInt(req.params.id) })
     .then(function (rows) {
         next(null, rows);
