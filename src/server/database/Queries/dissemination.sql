@@ -24,4 +24,4 @@ CREATE TABLE savera.dissemination
 TABLESPACE pg_default;
 
 ALTER TABLE savera.dissemination
-    OWNER to nxmwzpiqergtic;
+    OWNER to nxmwzpiqergtic; 

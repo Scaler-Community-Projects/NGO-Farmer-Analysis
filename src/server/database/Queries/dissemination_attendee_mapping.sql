@@ -31,4 +31,4 @@ CREATE TABLE savera.dissemination_attendee_mapping
 TABLESPACE pg_default;
 
 ALTER TABLE savera.dissemination_attendee_mapping
-    OWNER to nxmwzpiqergtic;
+    OWNER to nxmwzpiqergtic; 

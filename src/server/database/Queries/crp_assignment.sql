@@ -11,4 +11,4 @@ CREATE TABLE savera.crp_assignment
 TABLESPACE pg_default;
 
 ALTER TABLE savera.crp_assignment
-    OWNER to nxmwzpiqergtic;
+    OWNER to nxmwzpiqergtic; 

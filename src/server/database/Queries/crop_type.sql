@@ -8,4 +8,4 @@ CREATE TABLE savera.crop_type
 TABLESPACE pg_default;
 
 ALTER TABLE savera.crop_type
-    OWNER to nxmwzpiqergtic;
+    OWNER to nxmwzpiqergtic; 

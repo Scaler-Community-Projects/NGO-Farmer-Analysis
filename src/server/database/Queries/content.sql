@@ -1,3 +1,7 @@
+-- Table: savera.content
+
+-- DROP TABLE savera.content;
+
 CREATE TABLE savera.content
 (
     content_id integer NOT NULL,

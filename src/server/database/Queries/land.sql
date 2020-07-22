@@ -14,4 +14,4 @@ CREATE TABLE savera.land
 TABLESPACE pg_default;
 
 ALTER TABLE savera.land
-    OWNER to nxmwzpiqergtic;
+    OWNER to nxmwzpiqergtic; 

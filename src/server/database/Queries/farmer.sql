@@ -27,4 +27,4 @@ CREATE TABLE savera.farmer
 TABLESPACE pg_default;
 
 ALTER TABLE savera.farmer
-    OWNER to nxmwzpiqergtic;
+    OWNER to nxmwzpiqergtic; 

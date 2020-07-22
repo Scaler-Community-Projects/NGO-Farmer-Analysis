@@ -21,4 +21,4 @@ CREATE TABLE savera.crop_stats
 TABLESPACE pg_default;
 
 ALTER TABLE savera.crop_stats
-    OWNER to nxmwzpiqergtic;
+    OWNER to nxmwzpiqergtic; 

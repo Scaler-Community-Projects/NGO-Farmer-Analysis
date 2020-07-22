@@ -1,3 +1,7 @@
+-- Table: savera.crop
+
+-- DROP TABLE savera.crop;
+
 CREATE TABLE savera.crop
 (
     crop_id integer NOT NULL,

@@ -1,3 +1,7 @@
+-- Table: savera.adoption_table
+
+-- DROP TABLE savera.adoption_table;
+
 CREATE TABLE savera.adoption_table
 (
     adp_id integer NOT NULL,
