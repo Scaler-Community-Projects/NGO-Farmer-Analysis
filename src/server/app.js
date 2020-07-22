@@ -11,7 +11,6 @@ const farmer = require("./api/farmer");
 const adoption = require("./api/adoption");
 const dissemination = require("./api/dissemination");
 
-
 app.use(require("morgan")("combined", { stream: logger.stream }));
 app.use(express.static("public"));
 
