@@ -7,9 +7,11 @@ import Navbar from './components/Navbar.js';
 function App() {
   return (
    <div>
-     <Navbar/>
-     <div> HELLO </div>
-     <Footer/>
+      <Navbar/>
+        <div className="App-content"> 
+          Content
+        </div>
+      <Footer/>
    </div>
   );
 }
