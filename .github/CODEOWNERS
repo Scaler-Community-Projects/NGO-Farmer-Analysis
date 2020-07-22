@@ -40,5 +40,5 @@ apps/ @octocat
 *.md                                @krishnanvignesh 
 
 .github/*                           @krishnanvignesh
-src/                                @krishnanvignesh ritesh-pandey
+src/                                @krishnanvignesh @ritesh-pandey
 public/                             @krishnanvignesh
