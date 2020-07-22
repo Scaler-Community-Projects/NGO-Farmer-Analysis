@@ -1,6 +1,3 @@
--- Table: savera.agro_training
-
--- DROP TABLE savera.agro_training;
 
 CREATE TABLE savera.agro_training
 (
@@ -13,8 +10,3 @@ CREATE TABLE savera.agro_training
     modified_by character varying COLLATE pg_catalog."default",
     CONSTRAINT agro_training_pkey PRIMARY KEY (id)
 )
-
-TABLESPACE pg_default;
-
-ALTER TABLE savera.agro_training
-    OWNER to nxmwzpiqergtic;

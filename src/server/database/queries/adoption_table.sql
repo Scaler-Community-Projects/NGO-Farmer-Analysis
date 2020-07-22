@@ -1,7 +1,3 @@
--- Table: savera.adoption_table
-
--- DROP TABLE savera.adoption_table;
-
 CREATE TABLE savera.adoption_table
 (
     adp_id integer NOT NULL,
@@ -13,8 +9,3 @@ CREATE TABLE savera.adoption_table
         ON UPDATE CASCADE
         ON DELETE CASCADE
 )
-
-TABLESPACE pg_default;
-
-ALTER TABLE savera.adoption_table
-    OWNER to nxmwzpiqergtic;

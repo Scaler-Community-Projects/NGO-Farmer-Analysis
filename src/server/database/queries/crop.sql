@@ -1,6 +1,3 @@
--- Table: savera.crop
-
--- DROP TABLE savera.crop;
 
 CREATE TABLE savera.crop
 (
@@ -10,8 +7,3 @@ CREATE TABLE savera.crop
     name character varying COLLATE pg_catalog."default",
     CONSTRAINT crop_pkey PRIMARY KEY (crop_id)
 )
-
-TABLESPACE pg_default;
-
-ALTER TABLE savera.crop
-    OWNER to nxmwzpiqergtic;

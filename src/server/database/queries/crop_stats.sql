@@ -1,6 +1,3 @@
--- Table: savera.crop_stats
-
--- DROP TABLE savera.crop_stats;
 
 CREATE TABLE savera.crop_stats
 (
@@ -17,8 +14,3 @@ CREATE TABLE savera.crop_stats
     man_days_generated character varying COLLATE pg_catalog."default",
     CONSTRAINT crop_stats_pkey PRIMARY KEY (id)
 )
-
-TABLESPACE pg_default;
-
-ALTER TABLE savera.crop_stats
-    OWNER to nxmwzpiqergtic; 

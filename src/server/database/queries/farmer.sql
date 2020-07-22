@@ -1,6 +1,3 @@
--- Table: savera.farmer
-
--- DROP TABLE savera.farmer;
 
 CREATE TABLE savera.farmer
 (
@@ -23,8 +20,3 @@ CREATE TABLE savera.farmer
     modified_by character varying COLLATE pg_catalog."default",
     CONSTRAINT farmer_pkey PRIMARY KEY (farmer_id)
 )
-
-TABLESPACE pg_default;
-
-ALTER TABLE savera.farmer
-    OWNER to nxmwzpiqergtic; 

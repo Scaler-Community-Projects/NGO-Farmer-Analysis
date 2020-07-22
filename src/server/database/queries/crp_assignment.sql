@@ -1,3 +1,4 @@
+
 CREATE TABLE savera.crp_assignment
 (
     assignment_id integer NOT NULL,
@@ -7,8 +8,3 @@ CREATE TABLE savera.crp_assignment
     date date,
     CONSTRAINT crp_assignment_pkey PRIMARY KEY (assignment_id)
 )
-
-TABLESPACE pg_default;
-
-ALTER TABLE savera.crp_assignment
-    OWNER to nxmwzpiqergtic; 

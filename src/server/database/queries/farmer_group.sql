@@ -1,6 +1,3 @@
--- Table: savera.farmer_group
-
--- DROP TABLE savera.farmer_group;
 
 CREATE TABLE savera.farmer_group
 (
@@ -15,8 +12,4 @@ CREATE TABLE savera.farmer_group
     formation_date date,
     CONSTRAINT farmer_group_pkey PRIMARY KEY (group_id)
 )
-
-TABLESPACE pg_default;
-
-ALTER TABLE savera.farmer_group
-    OWNER to nxmwzpiqergtic; 
+ 

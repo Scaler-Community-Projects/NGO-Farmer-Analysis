@@ -1,6 +1,3 @@
--- Table: savera.content
-
--- DROP TABLE savera.content;
 
 CREATE TABLE savera.content
 (
@@ -8,8 +5,3 @@ CREATE TABLE savera.content
     type character varying COLLATE pg_catalog."default",
     CONSTRAINT content_pkey PRIMARY KEY (content_id)
 )
-
-TABLESPACE pg_default;
-
-ALTER TABLE savera.content
-    OWNER to nxmwzpiqergtic;

@@ -1,6 +1,3 @@
--- Table: savera.dissemination
-
--- DROP TABLE savera.dissemination;
 
 CREATE TABLE savera.dissemination
 (
@@ -17,11 +14,9 @@ CREATE TABLE savera.dissemination
     CONSTRAINT crp_fk FOREIGN KEY (crp_id)
         REFERENCES savera.crp (crp_id) MATCH SIMPLE
         ON UPDATE NO ACTION
-        ON DELETE NO ACTION
-        NOT VALID
-)
-
-TABLESPACE pg_default;
+        ON DELETE NO ACTIONTABLESPACE pg_default;
 
 ALTER TABLE savera.dissemination
     OWNER to nxmwzpiqergtic; 
+        NOT VALID
+)

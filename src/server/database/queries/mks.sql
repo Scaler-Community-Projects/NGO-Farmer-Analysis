@@ -1,6 +1,3 @@
--- Table: savera.mks
-
--- DROP TABLE savera.mks;
 
 CREATE TABLE savera.mks
 (
@@ -9,8 +6,3 @@ CREATE TABLE savera.mks
     phone_number character varying COLLATE pg_catalog."default",
     CONSTRAINT mks_pkey PRIMARY KEY (mks_id)
 )
-
-TABLESPACE pg_default;
-
-ALTER TABLE savera.mks
-    OWNER to nxmwzpiqergtic;

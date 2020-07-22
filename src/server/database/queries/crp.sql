@@ -1,6 +1,3 @@
--- Table: savera.crp
-
--- DROP TABLE savera.crp;
 
 CREATE TABLE savera.crp
 (
@@ -11,8 +8,3 @@ CREATE TABLE savera.crp
     gender character varying COLLATE pg_catalog."default",
     CONSTRAINT crp_pkey PRIMARY KEY (crp_id)
 )
-
-TABLESPACE pg_default;
-
-ALTER TABLE savera.crp
-    OWNER to nxmwzpiqergtic; 

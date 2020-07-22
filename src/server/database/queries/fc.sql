@@ -1,6 +1,3 @@
--- Table: savera.fc
-
--- DROP TABLE savera.fc;
 
 CREATE TABLE savera.fc
 (
@@ -10,8 +7,3 @@ CREATE TABLE savera.fc
     gender character varying COLLATE pg_catalog."default",
     CONSTRAINT fc_pkey PRIMARY KEY (fc_id)
 )
-
-TABLESPACE pg_default;
-
-ALTER TABLE savera.fc
-    OWNER to nxmwzpiqergtic;

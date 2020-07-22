@@ -1,6 +1,3 @@
--- Table: savera.dissemination_attendee_mapping
-
--- DROP TABLE savera.dissemination_attendee_mapping;
 
 CREATE TABLE savera.dissemination_attendee_mapping
 (
@@ -27,8 +24,3 @@ CREATE TABLE savera.dissemination_attendee_mapping
         ON UPDATE NO ACTION
         ON DELETE NO ACTION
 )
-
-TABLESPACE pg_default;
-
-ALTER TABLE savera.dissemination_attendee_mapping
-    OWNER to nxmwzpiqergtic; 

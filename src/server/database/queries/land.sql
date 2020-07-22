@@ -1,6 +1,3 @@
--- Table: savera.land
-
--- DROP TABLE savera.land;
 
 CREATE TABLE savera.land
 (
@@ -10,8 +7,3 @@ CREATE TABLE savera.land
     area character varying COLLATE pg_catalog."default",
     CONSTRAINT land_pkey PRIMARY KEY (land_id)
 )
-
-TABLESPACE pg_default;
-
-ALTER TABLE savera.land
-    OWNER to nxmwzpiqergtic; 
