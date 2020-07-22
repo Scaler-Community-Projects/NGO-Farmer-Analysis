@@ -3,7 +3,7 @@ const router = express.Router();
 
 const disseminationService = require("../services/disseminationService");
 
-router.get("/disseminations", (req, res) => {
+router.get("/all", (req, res) => {
     disseminationService.getAllDisseminations(req, res, (err, data) => {
         if (err) {
             res.send("Error in Fetching disseminations", err);
@@ -23,7 +23,7 @@ router.post("/dissemination", (req, res) => {
     });
 });
 
-router.get("/dissemination/:id", (req, res) => {
+router.get("/:id", (req, res) => {
     disseminationService.getDisseminationById(req, res, (err, data) => {
         if (err) {
             res.send("Error in Fetching the specific dissemination. ", err);
