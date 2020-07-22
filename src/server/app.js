@@ -10,7 +10,6 @@ const auth = require("./api/auth");
 const farmer = require("./api/farmer");
 const adoption = require("./api/adoption");
 
-
 app.use(require("morgan")("combined", { stream: logger.stream }));
 app.use(express.static("public"));
 
